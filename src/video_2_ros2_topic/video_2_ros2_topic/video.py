@@ -8,11 +8,11 @@ from sensor_msgs.msg import Image
 from cv_bridge import CvBridge, CvBridgeError
 
 class ImagePublisher(Node):
-    def __init__(self, file_path):
+    def __init__(self, file_path, topic):
         super().__init__("image_publisher")
         self.bridge = CvBridge()
         self.cap = cv2.VideoCapture(file_path)
-        self.pub = self.create_publisher(Image, "/video", 10)
+        self.pub = self.create_publisher(Image, topic, 10)
 
     def run(self):
         while(self.cap.isOpened()):
@@ -27,15 +27,15 @@ class ImagePublisher(Node):
 def main(args=None):
     rclpy.init(args=args)
 
-    if(len(sys.argv) != 2):
-        print("Incorrect number of arguments\nUsage:\n\tpython3 <path_to_video_file>")
+    if(len(sys.argv) != 3):
+        print("Incorrect number of arguments\nUsage:\n\tros2 run video_2_ros2_topic video -- <path_to_video_file> </topic> ")
         exit()
 
     if not os.path.isfile(sys.argv[1]):
         print("Invalid file path")
         exit()
 
-    ip = ImagePublisher(sys.argv[1])
+    ip = ImagePublisher(sys.argv[1], sys.argv[2])
     print("Publishing...")
     ip.run()
 
