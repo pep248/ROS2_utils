@@ -19,9 +19,9 @@ setup(
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
-            'console_scripts': [
-                    'video = video_2_ros2_topic.video:main',
-                    'webcam = video_2_ros2_topic.webcam:main',
-            ],
+        'console_scripts': [
+            'video = video_2_ros2_topic.video:main',
+            'webcam = video_2_ros2_topic.webcam:main',
+        ],
     },
 )
