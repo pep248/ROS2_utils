@@ -1,0 +1,3 @@
+[submodule "src/simple_cpp_python_publish_subscribe"]
+	path = src/simple_cpp_python_publish_subscribe
+	url = https://github.com/pep248/simple_cpp_python_publish_subscribe.git
