@@ -7,3 +7,6 @@
 [submodule "docs/ros2_cookbook"]
 	path = docs/ros2_cookbook
 	url = https://github.com/pep248/ros2_cookbook.git
+[submodule "src/video_2_ros2_topic"]
+	path = src/video_2_ros2_topic
+	url = https://github.com/pep248/video_2_ros2_topic.git
