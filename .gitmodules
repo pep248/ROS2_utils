@@ -1,12 +1,12 @@
 [submodule "src/simple_cpp_python_publish_subscribe"]
 	path = src/simple_cpp_python_publish_subscribe
 	url = https://github.com/pep248/simple_cpp_python_publish_subscribe.git
-[submodule "src/ros2_MinimalAction"]
-	path = src/ros2_MinimalAction
-	url = https://github.com/pep248/ros2_MinimalAction.git
 [submodule "docs/ros2_cookbook"]
 	path = docs/ros2_cookbook
 	url = https://github.com/pep248/ros2_cookbook.git
 [submodule "src/video_2_ros2_topic"]
 	path = src/video_2_ros2_topic
 	url = https://github.com/pep248/video_2_ros2_topic.git
+[submodule "src/ros2_MinimalCustomAction"]
+	path = src/ros2_MinimalCustomAction
+	url = https://github.com/pep248/ros2_MinimalCustomAction.git
