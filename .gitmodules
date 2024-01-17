@@ -10,3 +10,6 @@
 [submodule "src/ros2_MinimalCustomAction"]
 	path = src/ros2_MinimalCustomAction
 	url = https://github.com/pep248/ros2_MinimalCustomAction.git
+[submodule "src/ros2_MinimalCustomService"]
+	path = src/ros2_MinimalCustomService
+	url = https://github.com/pep248/ros2_MinimalCustomService
