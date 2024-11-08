@@ -9,11 +9,13 @@ You can access my ROS2 Cookbook here:
 ## Packages
 Here you have a list with useful ready-to-use packages:
 
+- [ROS2 Docker](https://github.com/pep248/ros2_MinimalDocker)
+
 - [ROS2 Minimal Custom Action](https://github.com/pep248/ros2_MinimalCustomAction)
 
 - [ROS2 Minimal Custom Service](https://github.com/pep248/ros2_MinimalCustomService)
 
-- [ROS2 Docker](https://github.com/pep248/ros2_MinimalDocker)
+- [ROS2 Minimal Moveit Thread Class](https://github.com/pep248/MinimalMoveitThreadClass)
 
 - [ROS2 Minimal Parameters and Arguments](https://github.com/pep248/ros2_MinimalParamArg)
 
