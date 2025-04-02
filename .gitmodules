@@ -13,3 +13,12 @@
 [submodule "src/ros2_MinimalCustomService"]
 	path = src/ros2_MinimalCustomService
 	url = https://github.com/pep248/ros2_MinimalCustomService
+[submodule "src/ros2_MinimalDocker"]
+	path = src/ros2_MinimalDocker
+	url = https://github.com/pep248/ros2_MinimalDocker.git
+[submodule "src/ros2_MinimalMoveitThreadClass"]
+	path = src/ros2_MinimalMoveitThreadClass
+	url = https://github.com/pep248/ros2_MinimalMoveitThreadClass
+[submodule "src/ros2_MinimalParamArg"]
+	path = src/ros2_MinimalParamArg
+	url = https://github.com/pep248/ros2_MinimalParamArg
